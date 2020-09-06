@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{a656ef1a-ef87-43ae-bcf3-a1c5457905eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{80587ebc-2a49-452f-b36f-881726ed2d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Direct2D">
+      <UniqueIdentifier>{49a00c90-6e81-49c1-bf6f-e716b45578b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Direct2D">
+      <UniqueIdentifier>{d0209294-2e00-41f8-94d8-3729caf864a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{4065c7f2-9a66-4807-b25d-683297c79014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{57bc0734-b3f2-4528-9a32-6dfae7593f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Direct2D\GuiEntities">
+      <UniqueIdentifier>{acc69a64-3185-4304-a091-ea0571c28fab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscConversions.cpp">
+      <Filter>Source Files\Direct2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreateResources.h">
+      <Filter>Header Files\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUtils.h">
+      <Filter>Header Files\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Dheaders.h">
+      <Filter>Header Files\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscConversions.h">
+      <Filter>Header Files\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Direct2D\GuiEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Header Files\Direct2D\GuiEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTemplate.h">
+      <Filter>Header Files\Direct2D\GuiEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticSlider.h">
+      <Filter>Header Files\Direct2D\GuiEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Header Files\Direct2D\GuiEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Header Files\Direct2D\GuiEntities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
